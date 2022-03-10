@@ -1,6 +1,17 @@
 Following https://www.baeldung.com/java-mutation-testing-with-pitest
 
-Setup:
+# Run
+```bash
+mvn compile
+
+```
+
+# Test
+```bash
+./test.sh
+```
+
+# Initial Setup
 ```echo
 mkdir -p src/main/java
 mkdir -p src/test/java

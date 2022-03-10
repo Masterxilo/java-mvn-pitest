@@ -1,11 +1,7 @@
 package ch.paulfrischknecht;
 
-public class Main {
-    public static void main(final String[] args) {
-        System.out.println("Hello, world!");
-    }
-
-    public static boolean isPalindrome(String inputString) {
+public class Palindrome {
+    public boolean isPalindrome(String inputString) {
         if (inputString.length() == 0) {
             return true;
         } else {
