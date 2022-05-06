@@ -84,6 +84,7 @@
               <rules>
                 <rule>
                   <element>CLASS</element>
+                  <!-- Normal Test Coverage Goal -->
                   <limits>
                     <limit>
                       <counter>LINE</counter>
@@ -136,7 +137,8 @@
         <version>1.7.4</version>
         <configuration>
           <timestampedReports>false</timestampedReports>
-          <mutationThreshold>40</mutationThreshold>
+          <!-- Mutation Test Coverage Goal -->
+          <mutationThreshold>80</mutationThreshold>
           <targetClasses>
             <param>ch.paulfrischknecht.*</param>
           </targetClasses>

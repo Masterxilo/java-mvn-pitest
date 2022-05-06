@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="make work in intellij">
-      <change afterPath="$PROJECT_DIR$/intellij-coverage-report/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Main.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Main.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Palindrome.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Palindrome.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +32,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="26Clnx7Bzw1iQDQ5Q75Ww4mLSzg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,14 +44,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/intellij-coverage-report" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,7 +65,31 @@
       <recent name="ch.paulfrischknecht" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in java-mvn-pitest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.paulfrischknecht.Main" />
+      <module name="java-mvn-pitest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.paulfrischknecht.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in java-mvn-pitest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-mvn-pitest" />
       <extension name="coverage" sample_coverage="false" track_test_folders="true" />
@@ -113,9 +134,11 @@
       <item itemvalue="JUnit.All in java-mvn-pitest" />
       <item itemvalue="JUnit.ch.paulfrischknecht in java-mvn-pitest" />
       <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in java-mvn-pitest" />
         <item itemvalue="JUnit.ch.paulfrischknecht in java-mvn-pitest" />
         <item itemvalue="JUnit.MainTest" />
@@ -134,6 +157,8 @@
       <workItem from="1647014417750" duration="33000" />
       <workItem from="1647014470608" duration="581000" />
       <workItem from="1647015103066" duration="533000" />
+      <workItem from="1651822256819" duration="149000" />
+      <workItem from="1651822514353" duration="606000" />
     </task>
     <servers />
   </component>
