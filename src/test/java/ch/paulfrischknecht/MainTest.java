@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class MainTest {
-    @Test
+    /*@Test
     void t1() {
         assertDoesNotThrow(
             () -> Main.main()
         );
-    }
+    }*/
 }
