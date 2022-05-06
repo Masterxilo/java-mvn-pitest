@@ -136,6 +136,7 @@
         <artifactId>pitest-maven</artifactId>
         <version>1.7.4</version>
         <configuration>
+          <!-- pitest configuration, see https://pitest.org/quickstart/maven/ -->
           <timestampedReports>false</timestampedReports>
           <!-- Mutation Test Coverage Goal -->
           <mutationThreshold>80</mutationThreshold>
@@ -145,12 +146,13 @@
           <targetTests>
             <param>ch.paulfrischknecht.*Test</param>
           </targetTests>
+          <!-- mutators https://pitest.org/quickstart/mutators/ -->
           <!--
           <mutators>
-              <mutator>CONSTRUCTOR_CALLS</mutator>
-              <mutator>VOID_METHOD_CALLS</mutator>
-              <mutator>RETURN_VALS</mutator>
-              <mutator>NON_VOID_METHOD_CALLS</mutator>
+            <mutator>CONSTRUCTOR_CALLS</mutator>
+            <mutator>VOID_METHOD_CALLS</mutator>
+            <mutator>RETURN_VALS</mutator>
+            <mutator>NON_VOID_METHOD_CALLS</mutator>
           </mutators>
           -->
         </configuration>
