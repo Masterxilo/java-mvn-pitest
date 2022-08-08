@@ -147,8 +147,16 @@
                     <targetTests>
                         <param>ch.paulfrischknecht.*Test</param>
                     </targetTests>
-                    <!-- mutators/mutator groups configuration https://pitest.org/quickstart/mutators/ -->
-                    <!--<mutators><mutator>ALL</mutator></mutators>-->
+                    <!--
+                        mutators/mutator groups configuration
+                        https://pitest.org/quickstart/mutators/
+                    -->
+                    <!--<mutators>
+                        <mutator>ALL</mutator>
+                        <mutator>-CRCR</mutator><mutator>-UOI</mutator>
+                    </mutators>-->
+
+                    <!--<mutators><mutator>DEFAULTS</mutator></mutators>-->
                     <!--
                     <mutators>
                         <mutator>CONDITIONALS_BOUNDARY</mutator>

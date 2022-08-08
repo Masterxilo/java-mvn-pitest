@@ -4,15 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="try mutator groups">
+    <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/mutation-test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/paulfrischknecht/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/paulfrischknecht/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ch.paulfrischknecht/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ch.paulfrischknecht/Main.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ch.paulfrischknecht/Palindrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ch.paulfrischknecht/Palindrome.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ch.paulfrischknecht/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ch.paulfrischknecht/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,10 +102,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pau\java-mvn-pitest" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -74,7 +116,7 @@
       <recent name="ch.paulfrischknecht" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in java-mvn-pitest">
+  <component name="RunManager" selected="JUnit.PalindromeTest.whenPalindrom_thenAccept">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.paulfrischknecht.Main" />
       <module name="java-mvn-pitest" />
@@ -101,32 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in java-mvn-pitest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-mvn-pitest" />
-      <extension name="coverage" sample_coverage="false" track_test_folders="true" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-mvn-pitest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch.paulfrischknecht.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ch.paulfrischknecht" />
-      <option name="MAIN_CLASS_NAME" value="ch.paulfrischknecht.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-mvn-pitest" />
       <extension name="coverage">
@@ -143,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch.paulfrischknecht in java-mvn-pitest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest.whenPalindrom_thenAccept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-mvn-pitest" />
       <extension name="coverage">
         <pattern>
@@ -152,7 +168,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ch.paulfrischknecht" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="ch.paulfrischknecht.PalindromeTest" />
+      <option name="METHOD_NAME" value="whenPalindrom_thenAccept" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,19 +183,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.All in java-mvn-pitest" />
-      <item itemvalue="JUnit.ch.paulfrischknecht in java-mvn-pitest" />
-      <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.PalindromeTest" />
+      <item itemvalue="JUnit.PalindromeTest [*]" />
       <item itemvalue="PIT Runner.pitest" />
+      <item itemvalue="JUnit.PalindromeTest.whenPalindrom_thenAccept" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in java-mvn-pitest" />
-        <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.PalindromeTest.whenPalindrom_thenAccept" />
+        <item itemvalue="JUnit.PalindromeTest [*]" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ch.paulfrischknecht in java-mvn-pitest" />
-        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +209,9 @@
       <workItem from="1647015103066" duration="533000" />
       <workItem from="1651822256819" duration="149000" />
       <workItem from="1651822514353" duration="2971000" />
-      <workItem from="1651825533583" duration="2504000" />
+      <workItem from="1651825533583" duration="2521000" />
+      <workItem from="1659908506088" duration="810000" />
+      <workItem from="1659989997565" duration="7867000" />
     </task>
     <task id="LOCAL-00001" summary="update coverage goals">
       <created>1651823251747</created>
@@ -218,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651830934914</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <created>1651850930087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651850930087</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,14 +252,22 @@
     <MESSAGE value="update coverage goals" />
     <MESSAGE value="remove solution" />
     <MESSAGE value="try mutator groups" />
-    <option name="LAST_COMMIT_MESSAGE" value="try mutator groups" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1651824476485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1659996665219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_mvn_pitest$All_in_java_mvn_pitest.ic" NAME="All in java-mvn-pitest Coverage Results" MODIFIED="1651825704532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/java_mvn_pitest$ch_paulfrischknecht_in_java_mvn_pitest.ic" NAME="ch.paulfrischknecht in java-mvn-pitest Coverage Results" MODIFIED="1646938356519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ch.paulfrischknecht.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest____.ic" NAME="PalindromeTest [*] Coverage Results" MODIFIED="1659993699682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
   </component>
