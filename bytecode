@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+javap -c -l target/classes/ch/paulfrischknecht/Palindrome.class | tee bytecode.txt

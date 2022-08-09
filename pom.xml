@@ -147,16 +147,31 @@
                     <targetTests>
                         <param>ch.paulfrischknecht.*Test</param>
                     </targetTests>
+                    <outputFormats>
+                        <outputFormat>HTML</outputFormat>
+                        <outputFormat>XML</outputFormat>
+                        <outputFormat>CSV</outputFormat>
+                    </outputFormats>
+                    <!-- Total time:  12.151 s -> 8.587 s -->
+                    <threads>12</threads>
                     <!--
                         mutators/mutator groups configuration
                         https://pitest.org/quickstart/mutators/
                     -->
-                    <!--<mutators>
-                        <mutator>ALL</mutator>
-                        <mutator>-CRCR</mutator><mutator>-UOI</mutator>
-                    </mutators>-->
-
                     <!--<mutators><mutator>DEFAULTS</mutator></mutators>-->
+
+                    <!--<mutators><mutator>STRONGER</mutator></mutators>-->
+
+                    <!--
+                    <mutators>
+                        <mutator>ALL</mutator><mutator>-CRCR</mutator>
+                        <mutator>-UOI</mutator>
+                    </mutators>-->
+                    <!-- DISABLED: -->
+                    <!-- Constant Replacement Mutator (CRCR) ... cuz 0 and 1 can switch places (?) -->
+                    <!-- Unary Operator Insertion (UOI) - firstChar++ passes... -->
+
+
                     <!--
                     <mutators>
                         <mutator>CONDITIONALS_BOUNDARY</mutator>

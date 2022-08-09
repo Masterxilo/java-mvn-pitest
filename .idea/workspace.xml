@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="refine" />
+    <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="refine">
+      <change afterPath="$PROJECT_DIR$/run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutation-test" beforeDir="false" afterPath="$PROJECT_DIR$/mutation-test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bytecode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/paulfrischknecht/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/paulfrischknecht/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +64,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -78,7 +89,7 @@
       <recent name="ch.paulfrischknecht" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest.whenPalindrom_thenAccept">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.paulfrischknecht.Main" />
       <module name="java-mvn-pitest" />
@@ -92,15 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,14 +154,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.PalindromeTest [*]" />
-      <item itemvalue="PIT Runner.pitest" />
+      <item itemvalue="JUnit.PalindromeTest" />
       <item itemvalue="JUnit.PalindromeTest.whenPalindrom_thenAccept" />
+      <item itemvalue="PIT Runner.pitest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.PalindromeTest.whenPalindrom_thenAccept" />
-        <item itemvalue="JUnit.PalindromeTest [*]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -174,6 +183,7 @@
       <workItem from="1651825533583" duration="2521000" />
       <workItem from="1659908506088" duration="810000" />
       <workItem from="1659989997565" duration="8187000" />
+      <workItem from="1660065480153" duration="6442000" />
     </task>
     <task id="LOCAL-00001" summary="update coverage goals">
       <created>1651823251747</created>
@@ -239,7 +249,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1659996665219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1660077689445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_mvn_pitest$All_in_java_mvn_pitest.ic" NAME="All in java-mvn-pitest Coverage Results" MODIFIED="1651825704532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />

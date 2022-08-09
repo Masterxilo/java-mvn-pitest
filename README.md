@@ -1,15 +1,18 @@
+Demonstrates how the seemingly easy to write and test palindrome
+classifier might not be so easy to get right after all.
+
 Following https://www.baeldung.com/java-mutation-testing-with-pitest
 
 # Run
 ```bash
 mvn compile
 # do everything:
-./run.sh
+./run
 ```
 
 # Test
 ```bash
-./test.sh
+./test
 ```
 
 # Mutation Test
@@ -28,6 +31,7 @@ Note: Reports may be hard to read because PIT does not modify your source code:
 
 To see our bytecode and know what might be going on...:
 ```bash
+./bytecode
 javap -c -l target/classes/ch/paulfrischknecht/Palindrome.class
 ```
 also
@@ -68,15 +72,21 @@ mvn install
 
 # Solution
 ```java
-if (inputString.length() <= 1)
+if (inputString.length() == 1)
+
     
 tests:
 
+""
+"aa"
+"ba"
+"xbax"
+"xaax"
+"ab"
 
-        assertTrue(palindrome.isPalindrome("aa"));
-        assertFalse(palindrome.isPalindrome("ab"));
-        assertFalse(palindrome.isPalindrome("ba")); // !!
-        assertTrue(palindrome.isPalindrome("a"));
-        assertTrue(palindrome.isPalindrome("aba"));
-        assertFalse(palindrome.isPalindrome("xabx")); // !!
+// PLUS EITHER
+"a"
+// if (inputString.length() <= 1): if this should be palindrome
+// OR
+// if (inputString.length() == 1) return false; : if not
 ```

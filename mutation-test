@@ -4,7 +4,7 @@ set -euo pipefail
 #(
 
 # looks like explicit clean is necessary, otherwise jacoco does not fail on too little coverage
-mvn clean
+#mvn clean
 
 #rm -rf target/pit-reports
 echo "Mutation test run..."

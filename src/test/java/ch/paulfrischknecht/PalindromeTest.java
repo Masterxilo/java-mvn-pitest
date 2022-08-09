@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 class PalindromeTest {
     @Test
     public void whenPalindrom_thenAccept() {
-        Palindrome palindrome = new Palindrome();
+        Palindrome p = new Palindrome();
+        // assertTrue(p.isPalindrome("..."));
+        // assertFalse(p.isPalindrome("..."));
     }
 }
