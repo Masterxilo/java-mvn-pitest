@@ -1,2 +1,5 @@
 target
 intellij-coverage-report
+.idea
+!.idea/misc.xml
+!.idea/workspace.xml
