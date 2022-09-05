@@ -1,0 +1,65 @@
+Compiled from "Palindrome.java"
+public class ch.paulfrischknecht.Palindrome {
+  public ch.paulfrischknecht.Palindrome();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+    LineNumberTable:
+      line 3: 0
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0       5     0  this   Lch/paulfrischknecht/Palindrome;
+
+  public boolean isPalindrome(java.lang.String);
+    Code:
+       0: aload_1
+       1: invokevirtual #7                  // Method java/lang/String.length:()I
+       4: ifne          9
+       7: iconst_1
+       8: ireturn
+       9: aload_1
+      10: iconst_0
+      11: invokevirtual #13                 // Method java/lang/String.charAt:(I)C
+      14: istore_2
+      15: aload_1
+      16: aload_1
+      17: invokevirtual #7                  // Method java/lang/String.length:()I
+      20: iconst_1
+      21: isub
+      22: invokevirtual #13                 // Method java/lang/String.charAt:(I)C
+      25: istore_3
+      26: aload_1
+      27: iconst_1
+      28: aload_1
+      29: invokevirtual #7                  // Method java/lang/String.length:()I
+      32: iconst_1
+      33: isub
+      34: invokevirtual #17                 // Method java/lang/String.substring:(II)Ljava/lang/String;
+      37: astore        4
+      39: iload_2
+      40: iload_3
+      41: if_icmpne     57
+      44: aload_0
+      45: aload         4
+      47: invokevirtual #21                 // Method isPalindrome:(Ljava/lang/String;)Z
+      50: ifeq          57
+      53: iconst_1
+      54: goto          58
+      57: iconst_0
+      58: ireturn
+    LineNumberTable:
+      line 5: 0
+      line 6: 7
+      line 8: 9
+      line 9: 15
+      line 10: 26
+      line 11: 39
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+         15      44     2 firstChar   C
+         26      33     3 lastChar   C
+         39      20     4   mid   Ljava/lang/String;
+          0      59     0  this   Lch/paulfrischknecht/Palindrome;
+          0      59     1 inputString   Ljava/lang/String;
+}
