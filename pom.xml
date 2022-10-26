@@ -161,11 +161,20 @@
                     -->
 
                     <!-- Default, no need to specify: -->
-                    <!--<mutators><mutator>DEFAULTS</mutator></mutators>-->
 
-                    <!--<mutators><mutator>STRONGER</mutator></mutators>-->
+
+                    <mutators>
+                        <mutator>ALL</mutator>
+                        <mutator>-CRCR</mutator>
+                        <mutator>-UOI</mutator>
+                    </mutators>
 
                     <!--
+
+                    <mutators><mutator>DEFAULTS</mutator></mutators>
+
+                    <mutators><mutator>STRONGER</mutator></mutators>
+
                     <mutators>
                         <mutator>ALL</mutator>
                         <mutator>-CRCR</mutator>

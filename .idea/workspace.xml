@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="self installing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Main.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Main.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Palindrome.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/Palindrome.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/ch.paulfrischknecht/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/mutations.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pit-reports/mutations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pit-reports/mutations.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +178,7 @@
       <workItem from="1661106027324" duration="50000" />
       <workItem from="1662404125272" duration="2476000" />
       <workItem from="1666720626195" duration="601000" />
-      <workItem from="1666810848717" duration="1765000" />
+      <workItem from="1666810848717" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="update coverage goals">
       <created>1651823251747</created>
@@ -270,7 +277,7 @@
     <SUITE FILE_PATH="coverage/java_mvn_pitest$ch_paulfrischknecht_in_java_mvn_pitest.ic" NAME="ch.paulfrischknecht in java-mvn-pitest Coverage Results" MODIFIED="1646938356519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1666814382644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1666814646044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest____.ic" NAME="PalindromeTest [*] Coverage Results" MODIFIED="1659993699682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
