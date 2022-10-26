@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="self installing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
     </configuration>
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-mvn-pitest" />
-      <extension name="coverage">
+      <extension name="coverage" sample_coverage="false">
         <pattern>
           <option name="PATTERN" value="ch.paulfrischknecht.*" />
           <option name="ENABLED" value="true" />
@@ -170,6 +171,7 @@
       <workItem from="1661106027324" duration="50000" />
       <workItem from="1662404125272" duration="2476000" />
       <workItem from="1666720626195" duration="601000" />
+      <workItem from="1666810848717" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="update coverage goals">
       <created>1651823251747</created>
@@ -268,7 +270,7 @@
     <SUITE FILE_PATH="coverage/java_mvn_pitest$ch_paulfrischknecht_in_java_mvn_pitest.ic" NAME="ch.paulfrischknecht in java-mvn-pitest Coverage Results" MODIFIED="1646938356519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1662411928287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest.ic" NAME="PalindromeTest Coverage Results" MODIFIED="1666814382644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_mvn_pitest$PalindromeTest____.ic" NAME="PalindromeTest [*] Coverage Results" MODIFIED="1659993699682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

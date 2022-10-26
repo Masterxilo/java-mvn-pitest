@@ -10,5 +10,7 @@ class PalindromeTest {
         Palindrome p = new Palindrome();
         // assertTrue(p.isPalindrome("..."));
         // assertFalse(p.isPalindrome("..."));
+        assertTrue(p.isPalindrome(""));
+        assertTrue(p.isPalindrome("aa"));
     }
 }
