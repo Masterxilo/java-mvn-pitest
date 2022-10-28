@@ -16,6 +16,5 @@ class PalindromeTest {
         assertFalse(p.isPalindrome("xbax"));
         assertTrue(p.isPalindrome("xaax"));
         assertFalse(p.isPalindrome("ab"));
-        assertFalse(p.isPalindrome("a"));
     }
 }
