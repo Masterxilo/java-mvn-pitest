@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+./install-dependencies.sh
+
+
+# if missing
+test -f target/classes/ch/paulfrischknecht/Palindrome.class || mvn compile
+
+javap -c -l target/classes/ch/paulfrischknecht/Palindrome.class | tee bytecode.txt
