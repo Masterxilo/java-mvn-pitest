@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/paulfrischknecht/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/PalindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/paulfrischknecht/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/paulfrischknecht/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="603c7566-584f-4e36-86ca-56a6148940d4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -115,15 +106,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646935655474</updated>
-      <workItem from="1646935656690" duration="4330000" />
+      <workItem from="1646935656690" duration="4574000" />
     </task>
+    <task id="LOCAL-00001" summary="initial working version">
+      <created>1646940758044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646940758044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add reports">
+      <created>1646940863627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646940863627</updated>
+    </task>
+    <task id="LOCAL-00003" summary="idea">
+      <created>1646940920782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646940920782</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial working version" />
+    <MESSAGE value="add reports" />
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/java_mvn_pitest$ch_paulfrischknecht_in_java_mvn_pitest.ic" NAME="ch.paulfrischknecht in java-mvn-pitest Coverage Results" MODIFIED="1646938356519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_mvn_pitest$ch_paulfrischknecht_in_java_mvn_pitest.ic" NAME="ch.paulfrischknecht in java-mvn-pitest Coverage Results" MODIFIED="1646940800890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ch.paulfrischknecht.*</FILTER>
     </SUITE>
   </component>

@@ -1,0 +1,21 @@
+
+_
+/src/test/java/ch/paulfrischknecht/MainTest.java,5/b/5b64e749f08221b64ed2e59c4c08e91f30cb48fc
+e
+5src/test/java/ch/paulfrischknecht/PalindromeTest.java,f/1/f1cc293d7cc8a7bf34983890a6b606616db0a0d8
+a
+1src/main/java/ch/paulfrischknecht/Palindrome.java,7/d/7dafaba3ff362790bdbda9cb6843ba91f3ec71eb
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+6
+run.sh,3/2/324fcb49f1cf313ebdd7cbda6a71b73727ddd94d
+8
+build.sh,5/9/59f81c123b3abbcb97274545796dd18706c3e106
+7
+test.sh,2/a/2acc65acdda9ae987dbf8da8251ed25fe5a18110
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+8
+test.log,3/2/324a41b34d2dfa32c804ef7b2ac23fc24200c596
+[
++src/main/java/ch/paulfrischknecht/Main.java,0/b/0b5207d7c890e3db692a266eec21d95bf112c96b
