@@ -1,2 +1,4 @@
+/target
 target
 intellij-coverage-report
+/intellij-coverage-report
