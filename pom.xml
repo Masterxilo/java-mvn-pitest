@@ -1,166 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>ch.paulfrischknecht</groupId>
-  <artifactId>java-mvn-pitest</artifactId>
-  <version>1.0-SNAPSHOT</version>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ch.paulfrischknecht</groupId>
+    <artifactId>java-mvn-pitest</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-  <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.8.2</version>
-      <scope>test</scope>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/javax.vecmath/vecmath Vector3f -->
-    <dependency>
-      <groupId>javax.vecmath</groupId>
-      <artifactId>vecmath</artifactId>
-      <version>1.5.2</version>
-    </dependency>
-
-  </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <configuration>
-          <archive>
-            <manifest>
-              <mainClass>ch.paulfrischknecht.Main</mainClass>
-            </manifest>
-          </archive>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.2.2</version>
-        <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <classpathPrefix>libs/</classpathPrefix>
-              <mainClass>
-                ch.paulfrischknecht.Main
-              </mainClass>
-            </manifest>
-          </archive>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.7</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>prepare-agent</goal>
-            </goals>
-          </execution>
-          <!-- attached to Maven test phase -->
-          <execution>
-            <id>report</id>
-            <phase>none</phase>
-            <goals>
-              <goal>report</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>check</id>
-            <phase>none</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
-            <configuration>
-              <rules>
-                <rule>
-                  <element>CLASS</element>
-                  <limits>
-                    <limit>
-                      <counter>LINE</counter>
-                      <value>COVEREDRATIO</value>
-                      <minimum>0.50</minimum>
-                    </limit>
-                    <limit>
-                      <counter>BRANCH</counter>
-                      <value>COVEREDRATIO</value>
-                      <minimum>0.50</minimum>
-                    </limit>
-                  </limits>
-                  <excludes>
-                  </excludes>
-                </rule>
-              </rules>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.21.0</version>
-        <dependencies>
-          <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-surefire-provider</artifactId>
-            <version>1.2.0-M1</version>
-          </dependency>
-          <dependency>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.8.2</version>
-          </dependency>
-        </dependencies>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.1</version>
-        <configuration>
-          <source>11</source>
-          <target>11</target>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.pitest</groupId>
-        <artifactId>pitest-maven</artifactId>
-        <version>1.7.4</version>
-        <configuration>
-          <timestampedReports>false</timestampedReports>
-          <mutationThreshold>40</mutationThreshold>
-          <targetClasses>
-            <param>ch.paulfrischknecht.*</param>
-          </targetClasses>
-          <targetTests>
-            <param>ch.paulfrischknecht.*Test</param>
-          </targetTests>
-          <!--
-          <mutators>
-              <mutator>CONSTRUCTOR_CALLS</mutator>
-              <mutator>VOID_METHOD_CALLS</mutator>
-              <mutator>RETURN_VALS</mutator>
-              <mutator>NON_VOID_METHOD_CALLS</mutator>
-          </mutators>
-          -->
-        </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.pitest</groupId>
-            <artifactId>pitest-junit5-plugin</artifactId>
-            <version>0.15</version>
-          </dependency>
-        </dependencies>
-      </plugin>
-    </plugins>
-  </build>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.vecmath/vecmath Vector3f -->
+        <dependency>
+            <groupId>javax.vecmath</groupId>
+            <artifactId>vecmath</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>ch.paulfrischknecht.Main</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>libs/</classpathPrefix>
+                            <mainClass>
+                                ch.paulfrischknecht.Main
+                            </mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.7</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <!-- attached to Maven test phase -->
+                    <execution>
+                        <id>report</id>
+                        <phase>none</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>check</id>
+                        <phase>none</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <rule>
+                                    <element>CLASS</element>
+                                    <!-- Normal Test Coverage Goal -->
+                                    <limits>
+                                        <limit>
+                                            <counter>LINE</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.80</minimum>
+                                        </limit>
+                                        <limit>
+                                            <counter>BRANCH</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.50</minimum>
+                                        </limit>
+                                    </limits>
+                                    <excludes>
+                                    </excludes>
+                                </rule>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.21.0</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>junit-platform-surefire-provider</artifactId>
+                        <version>1.2.0-M1</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-engine</artifactId>
+                        <version>5.8.2</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-maven</artifactId>
+                <version>1.7.4</version>
+                <configuration>
+                    <!-- pitest configuration, see https://pitest.org/quickstart/maven/ -->
+                    <timestampedReports>false</timestampedReports>
+                    <!-- Mutation Test Coverage Goal -->
+                    <mutationThreshold>80</mutationThreshold>
+                    <targetClasses>
+                        <param>ch.paulfrischknecht.*</param>
+                    </targetClasses>
+                    <targetTests>
+                        <param>ch.paulfrischknecht.*Test</param>
+                    </targetTests>
+                    <outputFormats>
+                        <outputFormat>HTML</outputFormat>
+                        <outputFormat>XML</outputFormat>
+                        <outputFormat>CSV</outputFormat>
+                    </outputFormats>
+                    <!-- Total time:  12.151 s -> 8.587 s -->
+                    <threads>12</threads>
+
+                    <!--
+                        mutators/mutator groups configuration
+                        https://pitest.org/quickstart/mutators/
+                    -->
+
+                    <mutators>
+                        <mutator>ALL</mutator>
+                        <mutator>-CRCR</mutator>
+                        <mutator>-UOI</mutator>
+                    </mutators>
+
+                    <!--
+                    Default, no need to specify:
+                    <mutators><mutator>DEFAULTS</mutator></mutators>
+
+                    <mutators><mutator>STRONGER</mutator></mutators>
+
+                    -->
+
+
+                    <!-- DISABLED: -->
+                    <!-- Constant Replacement Mutator (CRCR) ... cuz 0 and 1 can switch places (?) -->
+                    <!-- Unary Operator Insertion (UOI) - firstChar++ passes... -->
+
+
+                    <!--
+                    <mutators>
+                        <mutator>CONDITIONALS_BOUNDARY</mutator>
+                        <mutator>EMPTY_RETURNS</mutator>
+                        <mutator>INCREMENTS</mutator>
+                        <mutator>INVERT_NEGS</mutator>
+                        <mutator>MATH</mutator>
+                        <mutator>NULL_RETURNS</mutator>
+                        <mutator>PRIMITIVE_RETURNS</mutator>
+                        <mutator>VOID_METHOD_CALLS</mutator>
+
+                        <mutator>NEGATE_CONDITIONALS</mutator>
+                        <mutator>FALSE_RETURNS</mutator>
+                        <mutator>TRUE_RETURNS</mutator>
+                    </mutators>
+                    -->
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.pitest</groupId>
+                        <artifactId>pitest-junit5-plugin</artifactId>
+                        <version>0.15</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

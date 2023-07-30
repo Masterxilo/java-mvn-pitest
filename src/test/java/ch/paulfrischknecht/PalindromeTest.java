@@ -7,20 +7,14 @@ import org.junit.jupiter.api.Test;
 class PalindromeTest {
     @Test
     public void whenPalindrom_thenAccept() {
-        Palindrome palindromeTester = new Palindrome();
-        assertTrue(palindromeTester.isPalindrome("noon"));
+        Palindrome p = new Palindrome();
+        // assertTrue(p.isPalindrome("..."));
+        // assertFalse(p.isPalindrome("..."));
+        assertTrue(p.isPalindrome(""));
+        assertTrue(p.isPalindrome("aa"));
+        assertFalse(p.isPalindrome("ba"));
+        assertFalse(p.isPalindrome("xbax"));
+        assertTrue(p.isPalindrome("xaax"));
+        assertFalse(p.isPalindrome("ab"));
     }
-
-    // tests required for full mutation coverage
-/*
-    @Test
-    public void whenNotPalindrom_thanReject() {
-        Palindrome palindromeTester = new Palindrome();
-        assertFalse(palindromeTester.isPalindrome("box"));
-    }
-    @Test
-    public void whenNearPalindrom_thanReject() {
-        Palindrome palindromeTester = new Palindrome();
-        assertFalse(palindromeTester.isPalindrome("neon"));
-    }*/
 }
